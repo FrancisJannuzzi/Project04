@@ -5,4 +5,8 @@ public class Cheese implements Toppings {
     public String toString() {
 	return "Cheese";
     }
+
+    public double cost() {
+      return .75;
+    }
 }

@@ -1,12 +1,12 @@
 package Project04;
 
-public class Chicken implements Meats {
+public class Onion implements Toppings {
 
     public String toString() {
-	return "Chicken";
+	return "Onion";
     }
 
     public double cost() {
-      return 2.50;
+      return .35;
     }
 }
