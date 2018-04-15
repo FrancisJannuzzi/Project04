@@ -3,7 +3,7 @@ package Project04;
 public class SandwichTestDrive {
 
 	public static void main(String[] args) {
-		SchaperDeli EmmausSchaperDeli = new EmmauseSchaperDeli();
+		SchaperDeli EmmausSchaperDeli = new EmmausSchaperDeli();
     SchaperDeli BethlehemSchaperDeli = new BethlehemSchaperDeli();
 
     Sandwich sandwich = EmmausSchaperDeli.orderSandwich("hamburger");

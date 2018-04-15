@@ -2,7 +2,7 @@ package Project04;
 
 public class EmmausSchaperDeli extends SchaperDeli {
 
-  protected class Sandwich createSandwich(Sandwich item) {
+  protected Sandwich createSandwich(String item) {
     Sandwich sandwich = null;
     SandwichFactory ingredientFactory = new EmmausSandwichFactory();
 
@@ -26,5 +26,7 @@ public class EmmausSchaperDeli extends SchaperDeli {
       sandwich = new FrancisSandwich(ingredientFactory);
       sandwich.setName("Francis Sandwich");
     }
+
+    return sandwich;
   }
 }

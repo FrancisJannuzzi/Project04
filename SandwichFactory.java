@@ -2,8 +2,8 @@ package Project04;
 
 public interface SandwichFactory {
 
-	public Bread createBun();
-  public Bread createWheatWrap();
+	public Bun createBun();
+  public Wheatwrap createWheatWrap();
   public Cheese createCheese();
   public Onion createOnion();
   public Lettuce createLettuce();

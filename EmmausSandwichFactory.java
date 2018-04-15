@@ -2,12 +2,12 @@ package Project04;
 
 public class EmmausSandwichFactory implements SandwichFactory {
 
-  public Bread createBun() {
-    return new Bread();
+  public Bun createBun() {
+    return new Bun();
   }
 
-  public Bread createWheatWrap() {
-    return new WheatWrap();
+  public Wheatwrap createWheatWrap() {
+    return new Wheatwrap();
   }
 
   public Hamburger createHamburger() {
@@ -26,7 +26,7 @@ public class EmmausSandwichFactory implements SandwichFactory {
   }
 
   public Onion createOnion() {
-    create new Onion();
+    return new Onion();
   }
 
   public Lettuce createLettuce() {

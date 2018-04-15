@@ -3,7 +3,7 @@ package Project04;
 public abstract class Sandwich {
   String name;
   Bun bun;
-  WheatWrap wheatwrap;
+  Wheatwrap wheatwrap;
   Onion onion;
   Lettuce lettuce;
   Cheese cheese;
@@ -16,14 +16,13 @@ public abstract class Sandwich {
   Ketchup ketchup;
   double cost;
 
-
-
   abstract void prepare();
 
-  void setName(name) {
-    this.name = string;
+  void setName(String name) {
+    this.name = name;
   }
   double cost() {
+    cost = 0;
     if(bun != null)
       cost += bun.cost();
     if(wheatwrap != null)
@@ -51,7 +50,7 @@ public abstract class Sandwich {
     return cost;
   }
 
-  String toString() {
+  public String toString() {
     StringBuffer result = new StringBuffer();
     result.append("---- " + name + " ----\n");
     if(bun != null){

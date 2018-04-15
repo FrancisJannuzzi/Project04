@@ -1,6 +1,5 @@
 package Project04;
 
-public class AllentownHamSandwich {
   public class AllentownHamSandwich extends Sandwich{
   	SandwichFactory ingredientFactory;
 

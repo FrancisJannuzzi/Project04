@@ -1,6 +1,5 @@
 package Project04;
 
-public class JordanSandwich {
   public class JordanSandwich extends Sandwich{
   	SandwichFactory ingredientFactory;
 
@@ -10,7 +9,7 @@ public class JordanSandwich {
 
   	void prepare() {
   		System.out.println("Preparing " + name);
-  		wreatwrap = ingredientFactory.createWheatWrap();
+  		wheatwrap = ingredientFactory.createWheatWrap();
       lettuce = ingredientFactory.createLettuce();
       onion = ingredientFactory.createOnion();
       chicken = ingredientFactory.createChicken();
