@@ -26,7 +26,7 @@ public class BethlehemSchaperDeli extends SchaperDeli {
       sandwich = new JordanSandwich(ingredientFactory);
       sandwich.setName("Jordan Sandwich");
     }
-
+    sandwich.prepare();
     return sandwich;
   }
 }

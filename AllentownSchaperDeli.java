@@ -26,7 +26,7 @@ public class AllentownSchaperDeli extends SchaperDeli {
       sandwich = new GeorgeSandwich(ingredientFactory);
       sandwich.setName("George Sandwich");
     }
-
+    sandwich.prepare();
     return sandwich;
   }
 }

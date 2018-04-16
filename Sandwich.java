@@ -21,8 +21,8 @@ public abstract class Sandwich {
   void setName(String name) {
     this.name = name;
   }
-  double cost() {
-    cost = 0;
+  public double cost() {
+    cost = 0.0;
     if(bun != null)
       cost += bun.cost();
     if(wheatwrap != null)
@@ -55,54 +55,54 @@ public abstract class Sandwich {
     result.append("---- " + name + " ----\n");
     if(bun != null){
       result.append(bun);
-      result.append("\n");
+      result.append(" ");
     }
     if(wheatwrap != null){
       result.append(wheatwrap);
-      result.append("\n");
+      result.append(" ");
     }
     if(onion != null) {
       result.append(onion);
-      result.append("\n");
+      result.append(" ");
     }
     if(lettuce != null){
       result.append(lettuce);
-      result.append("\n");
+      result.append(" ");
     }
     if(cheese != null) {
       result.append(cheese);
-      result.append("\n");
+      result.append(" ");
     }
     if(tomato != null) {
       result.append(tomato);
-      result.append("\n");
+      result.append(" ");
     }
     if(hamburger != null){
       result.append(hamburger);
-      result.append("\n");
+      result.append(" ");
     }
     if(ham != null){
       result.append(ham);
-      result.append("\n");
+      result.append(" ");
     }
     if(chicken != null){
       result.append(chicken);
-      result.append("\n");
+      result.append(" ");
     }
     if(mayonnaise != null){
       result.append(mayonnaise);
-      result.append("\n");
+      result.append(" ");
     }
     if(mustard != null){
       result.append(mustard);
-      result.append("\n");
+      result.append(" ");
     }
     if(ketchup != null){
       result.append(ketchup);
-      result.append("\n");
+      result.append(" ");
     }
     cost = this.cost();
-    return result.toString() + " $" + cost;
+    return result.toString() + " $" + cost + "0";
   }
 
 }

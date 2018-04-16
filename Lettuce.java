@@ -3,7 +3,7 @@ package Project04;
 public class Lettuce implements Toppings {
 
     public String toString() {
-	return "Lettuce";
+	     return "Lettuce";
     }
 
     public double cost() {

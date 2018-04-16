@@ -26,7 +26,7 @@ public class EmmausSchaperDeli extends SchaperDeli {
       sandwich = new FrancisSandwich(ingredientFactory);
       sandwich.setName("Francis Sandwich");
     }
-
+    sandwich.prepare();
     return sandwich;
   }
 }
