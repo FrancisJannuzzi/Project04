@@ -102,7 +102,7 @@ public abstract class Sandwich {
       result.append(" ");
     }
     cost = this.cost();
-    return result.toString() + " $" + cost + "0";
+    return result.toString() + " $" + cost;
   }
 
 }
