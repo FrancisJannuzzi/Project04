@@ -30,13 +30,13 @@ public class SandwichTestDrive {
     System.out.println("Richard ordered " + sandwich7 + "\n");
 		Sandwich sandwich8 = BethlehemSchaperDeli.orderSandwich("chicken");
     System.out.println("Richard ordered " + sandwich8 + "\n");
-		
+
 		//Special Sandwiches
 		Sandwich sandwich9 = AllentownSchaperDeli.orderSandwich("Francis");
     System.out.println("Richard ordered " + sandwich9 + "\n");
-		Sandwich sandwich10 = AllentownSchaperDeli.orderSandwich("George");
+		Sandwich sandwich10 = EmmausSchaperDeli.orderSandwich("George");
     System.out.println("Richard ordered " + sandwich10 + "\n");
-		Sandwich sandwich11 = AllentownSchaperDeli.orderSandwich("Jordan");
+		Sandwich sandwich11 = BethlehemSchaperDeli.orderSandwich("Jordan");
     System.out.println("Richard ordered " + sandwich11 + "\n");
   }
 }
