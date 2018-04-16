@@ -101,6 +101,7 @@ public abstract class Sandwich {
       result.append(ketchup);
       result.append("\n");
     }
+    cost = this.cost();
     return result.toString() + " $" + cost;
   }
 
