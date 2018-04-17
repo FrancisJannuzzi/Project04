@@ -12,8 +12,11 @@ package Project04;
   		wheatwrap = ingredientFactory.createWheatWrap();
       lettuce = ingredientFactory.createLettuce();
       onion = ingredientFactory.createOnion();
-      chicken = ingredientFactory.createChicken();
+      hamburger = ingredientFactory.createHamburger();
       mayonnaise = ingredientFactory.createMayonnaise();
       ketchup = ingredientFactory.createKetchup();
+      mustard = ingredientFactory.createMustard();
+      tomato = ingredientFactory.createTomato();
+      cheese = ingredientFactory.createCheese();
   	}
 }

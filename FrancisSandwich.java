@@ -9,10 +9,12 @@ package Project04;
 
   	void prepare() {
   		System.out.println("Preparing " + name);
-  		wheatwrap = ingredientFactory.createWheatWrap();
+  		bun = ingredientFactory.createBun();
       lettuce = ingredientFactory.createLettuce();
       onion = ingredientFactory.createOnion();
-      chicken = ingredientFactory.createChicken();
+      tomato = ingredientFactory.createTomato();
+      hamburger = ingredientFactory.createHamburger();
+      cheese = ingredientFactory.createCheese();
       mayonnaise = ingredientFactory.createMayonnaise();
       ketchup = ingredientFactory.createKetchup();
   	}
