@@ -10,16 +10,6 @@ package Project04;
   	void prepare() {
   		System.out.println("Preparing " + name);
       if(this.ingredientFactory instanceof EmmausSandwichFactory){
-    		bun = ingredientFactory.createBun();
-        lettuce = ingredientFactory.createLettuce();
-        onion = ingredientFactory.createOnion();
-        tomato = ingredientFactory.createTomato();
-        hamburger = ingredientFactory.createHamburger();
-        cheese = ingredientFactory.createCheese();
-        mayonnaise = ingredientFactory.createMayonnaise();
-        ketchup = ingredientFactory.createKetchup();
-      }
-      else if (this.ingredientFactory instanceof AllentownSandwichFactory){
         wheatwrap = ingredientFactory.createWheatWrap();
         lettuce = ingredientFactory.createLettuce();
         onion = ingredientFactory.createOnion();
@@ -29,6 +19,16 @@ package Project04;
         mustard = ingredientFactory.createMustard();
         tomato = ingredientFactory.createTomato();
         cheese = ingredientFactory.createCheese();
+      }
+      else if (this.ingredientFactory instanceof AllentownSandwichFactory){
+        bun = ingredientFactory.createBun();
+        lettuce = ingredientFactory.createLettuce();
+        onion = ingredientFactory.createOnion();
+        tomato = ingredientFactory.createTomato();
+        hamburger = ingredientFactory.createHamburger();
+        cheese = ingredientFactory.createCheese();
+        mayonnaise = ingredientFactory.createMayonnaise();
+        ketchup = ingredientFactory.createKetchup();
       }
       else {
         wheatwrap = ingredientFactory.createWheatWrap();
