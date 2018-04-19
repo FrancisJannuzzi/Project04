@@ -8,22 +8,22 @@ public class BethlehemSchaperDeli extends SchaperDeli {
 
   if (item.equals("hamburger")) {
 
-			sandwich = new BethlehemHamburgerSandwich(ingredientFactory);
+			sandwich = new HamburgerSandwich(ingredientFactory);
 			sandwich.setName("Bethlehem Hamburger");
 
 		} else if (item.equals("ham")) {
 
-			sandwich = new BethlehemHamSandwich(ingredientFactory);
+			sandwich = new HamSandwich(ingredientFactory);
 			sandwich.setName("Bethlehem Ham Sandwich");
 
 		} else if (item.equals("chicken")) {
 
-			sandwich = new BethlehemChickenSandwich(ingredientFactory);
+			sandwich = new ChickenSandwich(ingredientFactory);
 			sandwich.setName("Bethlehem Chicken Sandwich");
 
 		}
     else {
-      sandwich = new JordanSandwich(ingredientFactory);
+      sandwich = new SpecialSandwich(ingredientFactory);
       sandwich.setName("Jordan Sandwich");
     }
     sandwich.prepare();

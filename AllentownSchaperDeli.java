@@ -8,22 +8,22 @@ public class AllentownSchaperDeli extends SchaperDeli {
 
   if (item.equals("hamburger")) {
 
-			sandwich = new AllentownHamburgerSandwich(ingredientFactory);
+			sandwich = new HamburgerSandwich(ingredientFactory);
 			sandwich.setName("Allentown Hamburger");
 
 		} else if (item.equals("ham")) {
 
-			sandwich = new AllentownHamSandwich(ingredientFactory);
+			sandwich = new HamSandwich(ingredientFactory);
 			sandwich.setName("Allentown Ham Sandwich");
 
 		} else if (item.equals("chicken")) {
 
-			sandwich = new AllentownChickenSandwich(ingredientFactory);
+			sandwich = new ChickenSandwich(ingredientFactory);
 			sandwich.setName("Allentown Chicken Sandwich");
 
 		}
     else {
-      sandwich = new GeorgeSandwich(ingredientFactory);
+      sandwich = new SpecialSandwich(ingredientFactory);
       sandwich.setName("George Sandwich");
     }
     sandwich.prepare();

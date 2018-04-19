@@ -1,7 +1,6 @@
 package Project04;
 
 public class BethlehemSandwichFactory implements SandwichFactory {
-
   public Bun createBun() {
     return new Bun();
   }
@@ -48,5 +47,6 @@ public class BethlehemSandwichFactory implements SandwichFactory {
   public Mustard createMustard() {
     return new Mustard();
   }
+
 
 }

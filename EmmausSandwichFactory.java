@@ -1,7 +1,6 @@
 package Project04;
 
 public class EmmausSandwichFactory implements SandwichFactory {
-
   public Bun createBun() {
     return new Bun();
   }
